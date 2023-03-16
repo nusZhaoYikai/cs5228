@@ -1,17 +1,5 @@
 from torch import nn
 
-
-# define MLP model
-class MLP(nn.Module):
-    def __init__(self, input_dim, hidden_dim, output_dim, dropout_prob):
-        super().__init__()
-        self.fc1 = nn.Linear(input_dim, output_dim)
-
-    def forward(self, x):
-        x = self.fc1(x)
-        return x
-
-
 # define LSTM model
 class BiLSTM(nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim, dropout_prob):

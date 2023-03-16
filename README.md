@@ -2,9 +2,9 @@
 to run the models,please follow the steps below.
 
 step1:
-due to the file size,we cannot upload those data set to this repository,
+due to the file size,we cannot upload those data sets to this repository,
 please paste sample-submission.csv,train.csv,test.csv to the data folder,
-and also decompress the auxiliary_data.zip to form a new folder named auxiliary_data under data folder,
+and also decompress the auxiliary_data.zip to form a new folder named auxiliary_data under the data folder,
 i.e.\data\auxiliary-data.
 
 step2:

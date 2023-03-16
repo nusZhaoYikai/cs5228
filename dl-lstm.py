@@ -30,7 +30,7 @@ for col in df.columns:
         df[col] = df[col].astype('category')
 
 # Shuffle the data
-df = df.sample(frac=1, random_state=42)
+#df = df.sample(frac=1, random_state=42)
 
 # Divide the dataset
 X = df.drop('resale_price', axis=1)

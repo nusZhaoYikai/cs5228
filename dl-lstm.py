@@ -29,6 +29,9 @@ for col in df.columns:
     if df[col].dtype == 'object':
         df[col] = df[col].astype('category')
 
+# Shuffle the data
+df = df.sample(frac=1, random_state=42)
+
 # Divide the dataset
 X = df.drop('resale_price', axis=1)
 scal = 1e2 / 2
